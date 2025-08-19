@@ -1,4 +1,4 @@
-package com.pashi.springdemo;
+package com.pashi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
