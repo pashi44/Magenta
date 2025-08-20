@@ -11,8 +11,10 @@ import org.springframework.web.bind.annotation.Mapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 @SpringBootApplication(exclude = {
-        org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration.class,
+
+
         org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration.class
+
 })
 public class MagentaApp {
 
